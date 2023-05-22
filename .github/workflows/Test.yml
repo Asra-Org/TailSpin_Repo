@@ -1,7 +1,7 @@
 name: GitHub Actions Demo
 on:
- push: 
-   branches: main   
+  check_run:
+    types: [rerequested, completed] 
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
