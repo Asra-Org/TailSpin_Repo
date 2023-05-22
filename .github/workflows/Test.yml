@@ -1,13 +1,7 @@
 name: GitHub Actions Demo
 on:
  push: 
-   branches: main
- issues:
-   type: opened , closed
- workflow_dispatch:
- schedule:
-  - cron: '0/5 * * * *'
-   
+   branches: main   
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
